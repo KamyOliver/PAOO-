@@ -1,5 +1,66 @@
+//objetos Javascript
+//objeto JSON (JAvaScript Object Notation)
+//Uma calcauladora realiza as operaçoes de soma e subtração
+// const calculadora = {
+//     soma : function(a, b){
+//         return a + b
+//     },
+//     subtracao : (a, b) => a + b
+//     }
+
+//     console.log(calculadora.soma(2, 3))
+//     console.log(calculadora.subtracao(5, 4))
 
 
+
+
+
+//Uma concessionaria tem CNPJ e endereço. Endereco tem rua, bairro e numero uma colecao de veiculos, Cada veiuculo tem marca, modelo, ano de fabricacao 
+// let concessionaria = {
+//     CNPJ: "12.345.678/0001-90",
+//     endereco: {
+//         rua: "Rua A",
+//         bairro: "Centro",
+//         numero: 100
+//     },
+//         veiculos: [{marca: "Fiat", modelo: "Uno", ano: 2020}]
+//     }
+// console.log("CNPJ: " + concessionaria.CNPJ)
+// console.log("Rua: " + concessionaria.endereco.rua)
+// console.log("Bairro: " + concessionaria.endereco.bairro)
+// console.log("Número: " + concessionaria.endereco.numero)        
+// console.log("Marca: " + concessionaria.veiculos[0].marca)
+// console.log("Modelo: " + concessionaria.veiculos[0].modelo)
+// console.log("Ano: " + concessionaria.veiculos[0].ano)
+
+
+
+
+
+
+
+//uma pessoa que se chama Maria, tem 21 anos e mora na rua b, numero 20
+// let pessoa = {
+//     nome: "Maria",
+//     idade: 21,
+//     endereco: {
+//         rua: "Rua B",
+//         numero: 20
+//     }
+// }
+// console.log("nome: " + pessoa.nome)
+// console.log("idade: " + pessoa.idade)
+// console.log("rua: " + pessoa.endereco.rua)
+// console.log("numero: " + pessoa.endereco.numero)
+
+//Uma pessoa e se chama joao e tem 17 anos
+// let pessoa = {
+//     nome: "João",//par chave valor separado por , para outra chave valor
+//     idade: 17 //par chave valor 
+// }//colecao de par chave valor  
+// console.log(pessoa.nome)
+// console.log(pessoa.idade)
+// console.log(pessoa["idade"])
 
 
 // function eAgora(){
